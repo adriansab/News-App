@@ -1,0 +1,58 @@
+.content h3 {
+    cursor: pointer;
+    color: brown;
+    margin: 10px;
+    justify-self: center;
+}
+
+.description {
+    display: block;
+    color: black;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+            line-clamp: 10;
+    -webkit-box-orient: vertical;
+
+}
+
+.image img {
+    border: 6px double;
+    border-radius: 20px;
+    border-color: black;
+    display: block;
+    margin: auto;
+    width: inherit;
+
+}
+
+.button {
+    position: static;
+    background-color: mintcream;
+    border: double;
+}
+
+.content .image {
+
+    width: 8em;
+    min-width: 300px;
+
+}
+
+.article-list-item {
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: darkseagreen;
+    list-style: none;
+    width: 50%;
+    max-width: 550px;
+    min-width: 550px;
+    margin: auto;
+    
+
+
+}
+    
